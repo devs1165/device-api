@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const dataSchema = mongoose.Schema({
     data:{ 
-        type:String, 
+        // type:String, 
         // required:true
     },
     timestamp:{
