@@ -1,0 +1,16 @@
+{
+  "name": "device-api",
+  "version": "1.0.0",
+  "description": "this is a beckend service for sending data from device to db",
+  "main": "server.js",
+  "scripts": {
+    "start":"node server.js"
+  },
+  "author": "Devil1165",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.9"
+  }
+}
