@@ -8,7 +8,7 @@ const dataRouter = require('./api/routes/dataRoute');
 
 // m-lab mongo connection
 // mongodb://ambeedev:ambeedev1@ds151383.mlab.com:51383/heroku_v3tlw5mx
-mongoose.connect('mongodb://ambeedev:ambeedev1@ds151383.mlab.com:51383/heroku_v3tlw5mx',{ useNewUrlParser : true });
+mongoose.connect('mongodb://"ambeedev:ambeedev1@ds151383.mlab.com:51383/heroku_v3tlw5mx',{ useNewUrlParser : true });
 
 
 // localhost mongo connection
